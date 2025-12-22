@@ -1,0 +1,54 @@
+/* header */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: transparent;
+    flex-direction: column;
+    padding: .5rem;
+    gap: .5rem;
+    display: none;
+   
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
+
+
+/* home */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-bottom: 20px;
+  }
+
+  .small-photo {
+    right: 20px;
+  }
+}
+
+/* about */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image {
+    margin-bottom: 20px;
+  }
+}
+
+
+
